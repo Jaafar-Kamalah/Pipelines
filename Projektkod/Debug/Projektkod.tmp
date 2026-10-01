@@ -1,0 +1,240 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m328Pdef.inc</FILE>
+  <FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\TWI-Drivers.asm</FILE>
+  <FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\SPI-Drivers.asm</FILE>
+  <FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\delays.asm</FILE>
+  <FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\DAMatrix.asm</FILE>
+  <FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\joystick.asm</FILE>
+  <FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_read.asm</FILE>
+  <FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_send.asm</FILE>
+  <FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\Debug\Projektkod.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Projektkod.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Projektkod.map</FILE>
+  <FILE>Projektkod.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <START><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\main.asm</FILE><LINE>74</LINE></START>
+  <SEND_BOARD><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\DAMatrix.asm</FILE><LINE>4</LINE></SEND_BOARD>
+  <TWI_SPEED_INIT><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\TWI-Drivers.asm</FILE><LINE>2</LINE></TWI_SPEED_INIT>
+  <TWI_SEND><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\TWI-Drivers.asm</FILE><LINE>7</LINE></TWI_SEND>
+  <TWI_OPEN><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\TWI-Drivers.asm</FILE><LINE>25</LINE></TWI_OPEN>
+  <TWI_WRITE><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\TWI-Drivers.asm</FILE><LINE>33</LINE></TWI_WRITE>
+  <TWI_CLOSE><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\TWI-Drivers.asm</FILE><LINE>47</LINE></TWI_CLOSE>
+  <TWI_RECEIVE><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\TWI-Drivers.asm</FILE><LINE>16</LINE></TWI_RECEIVE>
+  <TWI_READ><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\TWI-Drivers.asm</FILE><LINE>40</LINE></TWI_READ>
+  <WAIT_FOR_TWINT><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\TWI-Drivers.asm</FILE><LINE>54</LINE></WAIT_FOR_TWINT>
+  <SPI_INIT><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\SPI-Drivers.asm</FILE><LINE>5</LINE></SPI_INIT>
+  <SPI_SEND><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\SPI-Drivers.asm</FILE><LINE>16</LINE></SPI_SEND>
+  <SPI_TRANSMIT_WAIT><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\SPI-Drivers.asm</FILE><LINE>20</LINE></SPI_TRANSMIT_WAIT>
+  <WAIT><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\delays.asm</FILE><LINE>2</LINE></WAIT>
+  <WAIT_LOOP><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\delays.asm</FILE><LINE>7</LINE></WAIT_LOOP>
+  <LONG_WAIT><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\delays.asm</FILE><LINE>14</LINE></LONG_WAIT>
+  <LONG_WAIT_LOOP><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\delays.asm</FILE><LINE>17</LINE></LONG_WAIT_LOOP>
+  <SEND_CURSOR><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\DAMatrix.asm</FILE><LINE>24</LINE></SEND_CURSOR>
+  <SEND_COLUMN><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\DAMatrix.asm</FILE><LINE>53</LINE></SEND_COLUMN>
+  <COLUMN_COUNTER><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\DAMatrix.asm</FILE><LINE>76</LINE></COLUMN_COUNTER>
+  <CURSOR_COUNTER><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\main.asm</FILE><LINE>32</LINE></CURSOR_COUNTER>
+  <SKIP_SEND_CURSOR><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\DAMatrix.asm</FILE><LINE>30</LINE></SKIP_SEND_CURSOR>
+  <CURSOR_BLINK><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\DAMatrix.asm</FILE><LINE>33</LINE></CURSOR_BLINK>
+  <POINT_AT_CURSOR><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\main.asm</FILE><LINE>272</LINE></POINT_AT_CURSOR>
+  <CURSOR_OFF><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\DAMatrix.asm</FILE><LINE>41</LINE></CURSOR_OFF>
+  <CURSOR_COLOR><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\main.asm</FILE><LINE>30</LINE></CURSOR_COLOR>
+  <BLINK_DONE><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\DAMatrix.asm</FILE><LINE>44</LINE></BLINK_DONE>
+  <LOAD_DAMATRIX><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\main.asm</FILE><LINE>210</LINE></LOAD_DAMATRIX>
+  <SEND_BOARD_INIT><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\DAMatrix.asm</FILE><LINE>48</LINE></SEND_BOARD_INIT>
+  <DAMATRIX><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\main.asm</FILE><LINE>20</LINE></DAMATRIX>
+  <NEXT_COLOR><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\DAMatrix.asm</FILE><LINE>57</LINE></NEXT_COLOR>
+  <COLUMN_TRANSMITION><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\DAMatrix.asm</FILE><LINE>67</LINE></COLUMN_TRANSMITION>
+  <COLUMN><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\main.asm</FILE><LINE>22</LINE></COLUMN>
+  <NO_DAMATRIX_RESET><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\DAMatrix.asm</FILE><LINE>84</LINE></NO_DAMATRIX_RESET>
+  <JOY_RIGHT_INIT><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\joystick.asm</FILE><LINE>2</LINE></JOY_RIGHT_INIT>
+  <ADC_READ8><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\joystick.asm</FILE><LINE>7</LINE></ADC_READ8>
+  <ADC_BUSY><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\joystick.asm</FILE><LINE>11</LINE></ADC_BUSY>
+  <KEY_READ><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_read.asm</FILE><LINE>2</LINE></KEY_READ>
+  <KEY><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_read.asm</FILE><LINE>22</LINE></KEY>
+  <KEY_WAIT_FOR_PRESS><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_read.asm</FILE><LINE>6</LINE></KEY_WAIT_FOR_PRESS>
+  <FAILURE_INIT><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>43</LINE></FAILURE_INIT>
+  <CHECK_FOR_FAILURE><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>70</LINE></CHECK_FOR_FAILURE>
+  <NOT_L2><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_read.asm</FILE><LINE>30</LINE></NOT_L2>
+  <KEY_EXIT><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_read.asm</FILE><LINE>58</LINE></KEY_EXIT>
+  <KEY_CONVERT><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_read.asm</FILE><LINE>61</LINE></KEY_CONVERT>
+  <VERTICAL_AXIS><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_read.asm</FILE><LINE>42</LINE></VERTICAL_AXIS>
+  <HORISONTAL_BORDER_BLOCK><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_read.asm</FILE><LINE>99</LINE></HORISONTAL_BORDER_BLOCK>
+  <KEY_DONE><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_read.asm</FILE><LINE>53</LINE></KEY_DONE>
+  <VERTICAL_BORDER_BLOCK><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_read.asm</FILE><LINE>76</LINE></VERTICAL_BORDER_BLOCK>
+  <SELECT_BLOCK><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_read.asm</FILE><LINE>116</LINE></SELECT_BLOCK>
+  <CONNECTION_BLOCK><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_read.asm</FILE><LINE>143</LINE></CONNECTION_BLOCK>
+  <LEFT><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_read.asm</FILE><LINE>71</LINE></LEFT>
+  <RIGHT><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_read.asm</FILE><LINE>68</LINE></RIGHT>
+  <KEY_CONVERT_DONE><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_read.asm</FILE><LINE>73</LINE></KEY_CONVERT_DONE>
+  <CURSOR_POSITION><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\main.asm</FILE><LINE>28</LINE></CURSOR_POSITION>
+  <BLOCK_NEXT_ROW><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_read.asm</FILE><LINE>85</LINE></BLOCK_NEXT_ROW>
+  <VBB_EXIT><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_read.asm</FILE><LINE>95</LINE></VBB_EXIT>
+  <VBB_BLOCK><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_read.asm</FILE><LINE>92</LINE></VBB_BLOCK>
+  <FAILURE_COUNT><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>56</LINE></FAILURE_COUNT>
+  <HBB_BLOCK><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_read.asm</FILE><LINE>109</LINE></HBB_BLOCK>
+  <HBB_EXIT><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_read.asm</FILE><LINE>112</LINE></HBB_EXIT>
+  <SELECT_FLAG><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\main.asm</FILE><LINE>34</LINE></SELECT_FLAG>
+  <SB_EXIT><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_read.asm</FILE><LINE>139</LINE></SB_EXIT>
+  <SB_BLOCK><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_read.asm</FILE><LINE>135</LINE></SB_BLOCK>
+  <CB_EXIT><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_read.asm</FILE><LINE>183</LINE></CB_EXIT>
+  <ADJACENT><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\main.asm</FILE><LINE>55</LINE></ADJACENT>
+  <NEXT_ADJACENT><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_read.asm</FILE><LINE>165</LINE></NEXT_ADJACENT>
+  <CB_BLOCK><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_read.asm</FILE><LINE>180</LINE></CB_BLOCK>
+  <KEY_SEND><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_send.asm</FILE><LINE>2</LINE></KEY_SEND>
+  <SELECT_KEY><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_send.asm</FILE><LINE>9</LINE></SELECT_KEY>
+  <JOY_SEND><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_send.asm</FILE><LINE>15</LINE></JOY_SEND>
+  <SHORTCUT><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_send.asm</FILE><LINE>160</LINE></SHORTCUT>
+  <SEND_KEY_DONE><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_send.asm</FILE><LINE>12</LINE></SEND_KEY_DONE>
+  <SELECT_SWITCH><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_send.asm</FILE><LINE>35</LINE></SELECT_SWITCH>
+  <CHECK_LEVEL_DONE><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\main.asm</FILE><LINE>281</LINE></CHECK_LEVEL_DONE>
+  <SEND_BEEP><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>98</LINE></SEND_BEEP>
+  <PREV_CURSOR_POSITION><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\main.asm</FILE><LINE>36</LINE></PREV_CURSOR_POSITION>
+  <KEEP_CURSOR_COLOR><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_send.asm</FILE><LINE>26</LINE></KEEP_CURSOR_COLOR>
+  <SKIP_CURSOR_SAVE><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_send.asm</FILE><LINE>31</LINE></SKIP_CURSOR_SAVE>
+  <CURSOR_SEND><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_send.asm</FILE><LINE>82</LINE></CURSOR_SEND>
+  <SELECT_HIGH><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_send.asm</FILE><LINE>49</LINE></SELECT_HIGH>
+  <SELECT_SEND_DONE><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_send.asm</FILE><LINE>52</LINE></SELECT_SEND_DONE>
+  <RESET_COLOR><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_send.asm</FILE><LINE>55</LINE></RESET_COLOR>
+  <BOARD><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\main.asm</FILE><LINE>18</LINE></BOARD>
+  <RC_NEXT_COLOR><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_send.asm</FILE><LINE>63</LINE></RC_NEXT_COLOR>
+  <RC_SKIP><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_send.asm</FILE><LINE>74</LINE></RC_SKIP>
+  <NOT_SELECTED><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_send.asm</FILE><LINE>91</LINE></NOT_SELECTED>
+  <SELECT_SEND><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_send.asm</FILE><LINE>101</LINE></SELECT_SEND>
+  <COLORED_CURSOR><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_send.asm</FILE><LINE>96</LINE></COLORED_CURSOR>
+  <PREVIOUS_VALUE_SEND_INIT><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_send.asm</FILE><LINE>107</LINE></PREVIOUS_VALUE_SEND_INIT>
+  <PREVIOUS_VALUE_SEND><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_send.asm</FILE><LINE>116</LINE></PREVIOUS_VALUE_SEND>
+  <CURR_VALUE_SEND><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_send.asm</FILE><LINE>147</LINE></CURR_VALUE_SEND>
+  <PREV_POS_REMOVED><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_send.asm</FILE><LINE>139</LINE></PREV_POS_REMOVED>
+  <NOT_SPECIAL_CASE><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_send.asm</FILE><LINE>132</LINE></NOT_SPECIAL_CASE>
+  <PVS_EXIT><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_send.asm</FILE><LINE>144</LINE></PVS_EXIT>
+  <PREV_POS_UNSELECTABLE><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_send.asm</FILE><LINE>141</LINE></PREV_POS_UNSELECTABLE>
+  <CURR_VALUE_EXIT><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_send.asm</FILE><LINE>157</LINE></CURR_VALUE_EXIT>
+  <SHORTCUT_EXIT><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_send.asm</FILE><LINE>171</LINE></SHORTCUT_EXIT>
+  <SHORTCUT_CHECK_INIT><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_send.asm</FILE><LINE>176</LINE></SHORTCUT_CHECK_INIT>
+  <SHORTCUT_CHECK><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_send.asm</FILE><LINE>187</LINE></SHORTCUT_CHECK>
+  <SC_DONE><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_send.asm</FILE><LINE>213</LINE></SC_DONE>
+  <NOT_OUTSIDE_BORDERS><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_send.asm</FILE><LINE>200</LINE></NOT_OUTSIDE_BORDERS>
+  <NOT_MATCH><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_send.asm</FILE><LINE>210</LINE></NOT_MATCH>
+  <MATCH><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_send.asm</FILE><LINE>208</LINE></MATCH>
+  <SHORTCUT_SEND><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_send.asm</FILE><LINE>218</LINE></SHORTCUT_SEND>
+  <SHORTCUT_SEND_INIT><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_send.asm</FILE><LINE>237</LINE></SHORTCUT_SEND_INIT>
+  <SHORTCUT_SEND_LOOP><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_send.asm</FILE><LINE>221</LINE></SHORTCUT_SEND_LOOP>
+  <FIND_SHORTCUT_LINE><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_send.asm</FILE><LINE>248</LINE></FIND_SHORTCUT_LINE>
+  <SHORTCUT_SEND_EXIT><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_send.asm</FILE><LINE>233</LINE></SHORTCUT_SEND_EXIT>
+  <SS_NEXT_ADJACENT><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_send.asm</FILE><LINE>253</LINE></SS_NEXT_ADJACENT>
+  <FSL_EXIT><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_send.asm</FILE><LINE>282</LINE></FSL_EXIT>
+  <NOT_END_OF_LINE><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_send.asm</FILE><LINE>275</LINE></NOT_END_OF_LINE>
+  <SKIP_DELETER><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\key_send.asm</FILE><LINE>280</LINE></SKIP_DELETER>
+  <WIN><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>21</LINE></WIN>
+  <FAILURE><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>24</LINE></FAILURE>
+  <AUDIO_INIT><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>27</LINE></AUDIO_INIT>
+  <TUNE_INIT><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>36</LINE></TUNE_INIT>
+  <TUNE><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\main.asm</FILE><LINE>40</LINE></TUNE>
+  <FAILURE_COUNTER><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\main.asm</FILE><LINE>42</LINE></FAILURE_COUNTER>
+  <NO_FAILURE><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>78</LINE></NO_FAILURE>
+  <SEND_FAILURE><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>144</LINE></SEND_FAILURE>
+  <STOP_MUSIC><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>81</LINE></STOP_MUSIC>
+  <AUDIO_TIMER_INIT><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>88</LINE></AUDIO_TIMER_INIT>
+  <AUDIO_TIMER_STOP><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>93</LINE></AUDIO_TIMER_STOP>
+  <NO_BEEP><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>110</LINE></NO_BEEP>
+  <AUDIO_WAIT_SHORT><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>422</LINE></AUDIO_WAIT_SHORT>
+  <SEND_WIN><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>116</LINE></SEND_WIN>
+  <SEND_WIN_NEXT><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>126</LINE></SEND_WIN_NEXT>
+  <FIND_TONE><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>172</LINE></FIND_TONE>
+  <AUDIO_WAIT_LONG><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>443</LINE></AUDIO_WAIT_LONG>
+  <RESET_COUNTER><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>414</LINE></RESET_COUNTER>
+  <SEND_FAILURE_NEXT><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>154</LINE></SEND_FAILURE_NEXT>
+  <NOT_A0><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>177</LINE></NOT_A0>
+  <SET_A0><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>264</LINE></SET_A0>
+  <FIND_TONE_DONE><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>261</LINE></FIND_TONE_DONE>
+  <NOT_B0><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>182</LINE></NOT_B0>
+  <SET_B0><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>272</LINE></SET_B0>
+  <NOT_C><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>187</LINE></NOT_C>
+  <SET_C><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>280</LINE></SET_C>
+  <NOT_D><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>192</LINE></NOT_D>
+  <SET_D><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>288</LINE></SET_D>
+  <NOT_Di><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>197</LINE></NOT_Di>
+  <SET_Di><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>296</LINE></SET_Di>
+  <NOT_E><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>202</LINE></NOT_E>
+  <SET_E><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>304</LINE></SET_E>
+  <NOT_F><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>207</LINE></NOT_F>
+  <SET_F><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>312</LINE></SET_F>
+  <NOT_G><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>212</LINE></NOT_G>
+  <SET_G><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>320</LINE></SET_G>
+  <NOT_Gi><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>217</LINE></NOT_Gi>
+  <SET_Gi><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>328</LINE></SET_Gi>
+  <NOT_A><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>222</LINE></NOT_A>
+  <SET_A><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>336</LINE></SET_A>
+  <NOT_B><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>227</LINE></NOT_B>
+  <SET_B><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>344</LINE></SET_B>
+  <NOT_C2><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>232</LINE></NOT_C2>
+  <SET_C2><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>352</LINE></SET_C2>
+  <NOT_D2><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>237</LINE></NOT_D2>
+  <SET_D2><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>360</LINE></SET_D2>
+  <NOT_Di2><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>242</LINE></NOT_Di2>
+  <SET_Di2><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>368</LINE></SET_Di2>
+  <NOT_E2><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>247</LINE></NOT_E2>
+  <SET_E2><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>376</LINE></SET_E2>
+  <NOT_F2><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>252</LINE></NOT_F2>
+  <SET_F2><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>384</LINE></SET_F2>
+  <NOT_0><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>257</LINE></NOT_0>
+  <SET_E3><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>392</LINE></SET_E3>
+  <RESET_TIMER><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>400</LINE></RESET_TIMER>
+  <RESET_TIMER_LOW><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>407</LINE></RESET_TIMER_LOW>
+  <AWS_LOOP_3><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>427</LINE></AWS_LOOP_3>
+  <AWS_LOOP_2><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>429</LINE></AWS_LOOP_2>
+  <AWS_LOOP_1><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>431</LINE></AWS_LOOP_1>
+  <AWL_LOOP_1><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>452</LINE></AWL_LOOP_1>
+  <AWL_LOOP_2><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>450</LINE></AWL_LOOP_2>
+  <AWL_LOOP_3><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\audio.asm</FILE><LINE>448</LINE></AWL_LOOP_3>
+  <LEVEL><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\main.asm</FILE><LINE>24</LINE></LEVEL>
+  <LEVEL_DONE><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\main.asm</FILE><LINE>26</LINE></LEVEL_DONE>
+  <SELECTED_POSITION><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\main.asm</FILE><LINE>38</LINE></SELECTED_POSITION>
+  <LVL1><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\main.asm</FILE><LINE>46</LINE></LVL1>
+  <LVL1_DONE><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\main.asm</FILE><LINE>48</LINE></LVL1_DONE>
+  <LVL2><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\main.asm</FILE><LINE>51</LINE></LVL2>
+  <LVL2_DONE><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\main.asm</FILE><LINE>53</LINE></LVL2_DONE>
+  <TIMER_INIT><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\main.asm</FILE><LINE>94</LINE></TIMER_INIT>
+  <SRAM_INIT><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\main.asm</FILE><LINE>105</LINE></SRAM_INIT>
+  <LOAD_LVL1><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\main.asm</FILE><LINE>140</LINE></LOAD_LVL1>
+  <LOAD_BOARD><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\main.asm</FILE><LINE>175</LINE></LOAD_BOARD>
+  <MAIN><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\main.asm</FILE><LINE>88</LINE></MAIN>
+  <DATA_INIT><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\main.asm</FILE><LINE>120</LINE></DATA_INIT>
+  <BOARD_INIT><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\main.asm</FILE><LINE>129</LINE></BOARD_INIT>
+  <CLR_NEXT_SEG><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\main.asm</FILE><LINE>134</LINE></CLR_NEXT_SEG>
+  <LOAD_LEVEL><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\main.asm</FILE><LINE>168</LINE></LOAD_LEVEL>
+  <LOAD_LVL2><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\main.asm</FILE><LINE>154</LINE></LOAD_LVL2>
+  <LOAD_BOARD_INIT><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\main.asm</FILE><LINE>192</LINE></LOAD_BOARD_INIT>
+  <LOAD_BOARD_LEVEL><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\main.asm</FILE><LINE>199</LINE></LOAD_BOARD_LEVEL>
+  <BOARD_LOADED><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\main.asm</FILE><LINE>207</LINE></BOARD_LOADED>
+  <LOAD_DAMATRIX_INIT><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\main.asm</FILE><LINE>236</LINE></LOAD_DAMATRIX_INIT>
+  <LOAD_DAMATRIX_BOARD><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\main.asm</FILE><LINE>243</LINE></LOAD_DAMATRIX_BOARD>
+  <NEXT_DAMATRIX_ROW><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\main.asm</FILE><LINE>245</LINE></NEXT_DAMATRIX_ROW>
+  <LOAD_DAMATRIX_ROW><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\main.asm</FILE><LINE>254</LINE></LOAD_DAMATRIX_ROW>
+  <NEXT_DAMATRIX_BYTE><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\main.asm</FILE><LINE>258</LINE></NEXT_DAMATRIX_BYTE>
+  <CLD_LOOP><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\main.asm</FILE><LINE>287</LINE></CLD_LOOP>
+  <CLD_DONE><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\main.asm</FILE><LINE>305</LINE></CLD_DONE>
+  <LEVEL_NOT_DONE><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\main.asm</FILE><LINE>314</LINE></LEVEL_NOT_DONE>
+  <SWITCH_LEVEL><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\main.asm</FILE><LINE>317</LINE></SWITCH_LEVEL>
+  <LOAD_LEVEL_2><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\main.asm</FILE><LINE>323</LINE></LOAD_LEVEL_2>
+  <SL_EXIT><FILE>C:\Users\Jaafar\Documents\Atmel Studio\7.0\pipelines\Projektkod\Projektkod\main.asm</FILE><LINE>325</LINE></SL_EXIT>
+ </LABELS>
+</ASSEMBLER_INFO>
